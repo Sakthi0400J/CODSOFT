@@ -8,7 +8,7 @@ uppercase= ['A','B','C','D', 'E', 'F', 'G', 'H','I','J','K','L','M', 'N','O','P'
 numbers=["1","2","3","4","5","6","7","8","9","0"]
 
 
-length=int(input("Enter the length of the password"))
+length=int(input("Enter the length of the password:"))
 temp_choice=[1,2,3]
 password=""
 
