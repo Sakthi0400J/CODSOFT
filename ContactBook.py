@@ -17,7 +17,7 @@ class contact_book:
         
     def print_list(self):
         for i in self.list:
-            print(i.name,"\n",i.phone)
+            print("name=",i.name,"\n","phone=",i.phone,"\n","email=",i.email,"address=",i.address)
             
     def search(self,name):
         for i in self.list:
@@ -91,15 +91,3 @@ while True:
         
     if choice==6:
         break
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
