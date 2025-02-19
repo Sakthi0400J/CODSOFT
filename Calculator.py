@@ -4,16 +4,16 @@ class calculator:
         self.ele=ele
         
     def add(self):
-        print(self.data+self.ele)
+        print(self.data,"+",self.ele,"=",self.data+self.ele)
         
     def sub(self):
-        print(self.data-self.ele)
+        print(self.data,"-",self.ele,"=",self.data-self.ele)
     
     def mul(self):
-        print(self.data*self.ele)
+        print(self.data,"*",self.ele,"=",self.data*self.ele)
         
     def div(self):
-        print(float(self.data/self.ele))
+        print(self.data,"/",self.ele,"=",float(self.data/self.ele))
         
     
 
@@ -50,10 +50,3 @@ while True:
         abd.div()
     else:
         break
-
-
-
-
-
-
-
